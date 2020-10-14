@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="org.EvalPar.torres.torres_evalparcial.ui.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/insertarUsuario"
+        android:name="org.EvalPar.torres.torres_evalparcial.ui.ui.insertarusuarios.InsertarUsuario"
+        android:label="@string/agregar_contacto"
+        tools:layout="@layout/insertar_usuario_fragment" />
+    <fragment
+        android:id="@+id/listarUsuario"
+        android:name="org.EvalPar.torres.torres_evalparcial.ui.ui.listarusuario.ListarUsuario"
+        android:label="@string/listar_contacto"
+        tools:layout="@layout/listar_usuarios_fragment" />
+    <fragment
+        android:id="@+id/buscarUsuario"
+        android:name="org.EvalPar.torres.torres_evalparcial.ui.ui.buscarusuarios.BuscarUsuario"
+        android:label="@string/buscar_contacto"
+        tools:layout="@layout/buscar_usuarios_fragment" />
+</navigation>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".ui.ui.buscarusuarios.BuscarUsuario">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar usuario"
+        android:textColor="#3A3842"
+        android:textSize="20sp" />
+    <Spinner
+        android:id="@+id/spiUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </Spinner>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar una acción con el dato"
+        android:textColor="#3A3842"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+    <ListView
+        android:id="@+id/lvUsuariosAccion"
+        android:layout_width="match_parent"
+        android:layout_height="253dp">
+
+    </ListView>
+
+</LinearLayout>

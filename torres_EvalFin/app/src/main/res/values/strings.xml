@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">torres_EvalParcial</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="titulo_menu">Agenda de contactos</string>
+    <string name="subtitulo_menu">Tus contactos en un solo lugar</string>
+    <string name="agregar_contacto">Agregar contacto</string>
+    <string name="buscar_contacto">Buscar y editar</string>
+    <string name="listar_contacto">Llamadas y mensajeria</string>
+
+</resources>

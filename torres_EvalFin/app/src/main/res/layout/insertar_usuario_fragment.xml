@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".ui.ui.insertarusuarios.InsertarUsuario">
+
+    <EditText
+        android:id="@+id/et_registro_nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#fff"
+        android:hint="Nombres"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/et_registro_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#fff"
+        android:hint="Apellidos" />
+
+    <EditText
+        android:id="@+id/et_registro_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#fff"
+        android:hint="Telefono" />
+
+    <EditText
+        android:id="@+id/et_registro_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#fff"
+        android:hint="Correo Electronico" />
+
+    <EditText
+        android:id="@+id/et_registro_pagina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#fff"
+        android:hint="Pagina Web" />
+
+    <Button
+        android:id="@+id/btnIUSregusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F45D05"
+        android:textColor="#fff"
+        android:text="registrar" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBarra"
+    tools:context=".ui.ui.insertarusuarios.InsertarUsuario">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#1636E8"
+        android:text="Enviar SMS"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_sms_destino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#fff"
+        android:hint="Para" />
+
+    <EditText
+        android:id="@+id/et_sms_cuerpo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#fff"
+        android:hint="Cuerpo del mensaje" />
+
+    <Button
+        android:id="@+id/btnEnviarSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1636E8"
+        android:textColor="#fff"
+        android:text="Enviar" />
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#65F306"
+        android:textColor="#fff"
+        android:text="Llamar" />
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".ui.ui.buscarusuarios.BuscarUsuario">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione usuario"
+        android:textColor="#3A3842"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lvUsuarios"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"></ListView>
+    <EditText
+        android:id="@+id/et_buscar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#3A3842"
+        android:focusable="false"
+        android:enabled="false"
+        android:cursorVisible="false"
+        android:layout_marginTop="20dp"
+        android:hint="Id" />
+    <EditText
+        android:id="@+id/et_buscar_nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#3A3842"
+        android:hint="Nombres" />
+
+    <EditText
+        android:id="@+id/et_buscar_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#3A3842"
+        android:hint="Apellidos" />
+
+    <EditText
+        android:id="@+id/et_buscar_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#3A3842"
+        android:hint="Telefono" />
+
+    <EditText
+        android:id="@+id/et_buscar_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#3A3842"
+        android:hint="Correo Electronico" />
+
+    <EditText
+        android:id="@+id/et_buscar_pagina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:textColor="#3A3842"
+        android:hint="Pagina Web" />
+
+    <Button
+        android:id="@+id/btn_editar_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Editar"
+        android:textColor="#fff"
+        android:background="#F45D05"
+        android:text="Editar" />
+    <Button
+        android:id="@+id/btn_eliminar_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#F31C1C"
+        android:text="Eliminar" />
+</LinearLayout>
